@@ -42,7 +42,8 @@ void initState(){
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Covid-19'),
+        backgroundColor: Colors.black,
+        title: Text('Covid-19' ,style: TextStyle(color: Colors.grey[200]),),
       ),
       body: SingleChildScrollView(child: Column(
         crossAxisAlignment:CrossAxisAlignment.start,
